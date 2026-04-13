@@ -1,73 +1,156 @@
-# React + TypeScript + Vite
+<!-- PROJECT TITLE -->
+<h1 align="center">🧠 AI Search Visualizer</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  An interactive web-based tool to visualize classic AI search algorithms in action.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img alt="Stars" src="https://img.shields.io/github/stars/NnR2D2/ai-search-visualizer?style=for-the-badge&color=yellow" />
+  <img alt="Forks" src="https://img.shields.io/github/forks/NnR2D2/ai-search-visualizer?style=for-the-badge&color=blue" />
+  <img alt="License" src="https://img.shields.io/github/license/NnR2D2/ai-search-visualizer?style=for-the-badge&color=green" />
+  <img alt="AI" src="https://img.shields.io/badge/AI-Search%20Visualizer-purple?style=for-the-badge" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## React Compiler
+**AI Search Visualizer** is a modern, interactive platform designed to help you understand how different Artificial Intelligence search algorithms work.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It visually demonstrates how algorithms explore a grid, evaluate nodes, and find optimal (or non-optimal) paths.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+✔️ Interactive Grid System  
+✔️ Real-time Pathfinding Animation  
+✔️ Multiple Algorithm Support  
+✔️ Heuristic Visualization (Manhattan & Euclidean)  
+✔️ Drag & Drop Start / Goal Nodes  
+✔️ Obstacle Drawing (Click & Drag)  
+✔️ Clear Path & Reset Board Controls  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+
+
+## 🧠 Algorithms Implemented
+
+### 🔹 Uninformed Search
+
+| Algorithm | Description |
+|----------|------------|
+| BFS | Level-by-level traversal (guarantees shortest path) |
+| DFS | Deep traversal before backtracking |
+| UCS | Expands nodes by lowest cost |
+
+
+
+### 🔹 Informed Search
+
+| Algorithm | Description |
+|----------|------------|
+| Greedy Best-First Search | Chooses node closest to goal |
+| A* | Combines path cost + heuristic |
+
+A* Formula:
+f(n) = g(n) + h(n)
+
+
+## 🛠️ Tech Stack
+
+Frontend: HTML5, CSS3, JavaScript  
+Backend/Logic: Python (Flask/Brython) or JavaScript  
+Visualization: HTML5 Canvas / SVG  
+
+
+## 📦 Installation
+
+
+```bash
+git clone https://github.com/NnR2D2/ai-search-visualizer.git
+cd ai-search-visualizer
+```
+---
+
+## ▶️ Run
+
+Option 1: 
+```bash
+index.html  
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Option 2:
+```bash
+python -m http.server
 ```
+
+Visit 
+```bash
+http://localhost:8000
+```
+
+
+
+## 🎯 Usage
+
+1. Select algorithm  
+2. Draw obstacles  
+3. Set Start (S)  
+4. Set Goal (G)  
+5. Click Start  
+
+
+
+## 📂 Structure
+
+```bash
+ai-search-visualizer/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── README.md
+
+```
+
+
+## 🔮 Future Improvements
+
+- 📊 Performance comparison
+- 🎚️ Speed control
+- 🌐 React version
+- 🧠 More algorithms (Dijkstra, IDA*, Bidirectional)
+- 💾 Save/load states
+
+
+
+
+
+
+## 🤝 Contributing
+
+Fork → Branch → Commit → Push → Pull Request
+
+
+## 📄 License
+
+MIT License. See `LICENSE`.
+
+
+
+## 👨‍💻 Author
+
+**NnR2D2**  
+https://github.com/NnR2D2
+
+
+
+## ⭐ Support
+
+🌟 Star the repo  
+🍴 Fork it  
+📢 Share it  
+
+
+<p align="center">
+  Made with ❤️ for learning AI visually
+</p>
