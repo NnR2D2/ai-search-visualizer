@@ -6,10 +6,13 @@
 </p>
 
 <p align="center">
-  <img alt="Stars" src="https://img.shields.io/github/stars/NnR2D2/ai-search-visualizer?style=for-the-badge&color=yellow" />
-  <img alt="Forks" src="https://img.shields.io/github/forks/NnR2D2/ai-search-visualizer?style=for-the-badge&color=blue" />
-  <img alt="License" src="https://img.shields.io/github/license/NnR2D2/ai-search-visualizer?style=for-the-badge&color=green" />
-  <img alt="AI" src="https://img.shields.io/badge/AI-Search%20Visualizer-purple?style=for-the-badge" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/NnR2D2/ai-search-visualizer?style=for-the-badge&cacheSeconds=3600" />
+  
+  <img alt="Forks" src="https://img.shields.io/github/forks/NnR2D2/ai-search-visualizer?style=for-the-badge&cacheSeconds=3600" />
+  
+  <img alt="License" src="https://img.shields.io/github/license/NnR2D2/ai-search-visualizer?style=for-the-badge" />
+  
+  <img alt="AI Project" src="https://img.shields.io/badge/AI-Search%20Visualizer-purple?style=for-the-badge" />
 </p>
 
 ## 🚀 Overview
@@ -133,7 +136,7 @@ Fork → Branch → Commit → Push → Pull Request
 
 ## 📄 License
 
-MIT License. See `LICENSE`.
+MIT License. See [LICENSE](LICENSE).
 
 
 
