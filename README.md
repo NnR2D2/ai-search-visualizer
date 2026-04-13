@@ -10,7 +10,7 @@
   
   <img alt="Forks" src="https://img.shields.io/github/forks/NnR2D2/ai-search-visualizer?style=for-the-badge" />
   
-  <img alt="License" src="https://img.shields.io/github/license/NnR2D2/ai-search-visualizer?style=for-the-badge" />
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge"  />
   
   <img alt="AI Project" src="https://img.shields.io/badge/AI-Search%20Visualizer-purple?style=for-the-badge" />
 </p>
